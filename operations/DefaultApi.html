@@ -1,0 +1,325 @@
+<div class="main-content">
+  <h2><a name=""></a></h2>
+  <p>This is the  API</p>
+
+  <h2><a name="loginPost"></a>loginPost</h2>
+  <hr>
+  <p></p>
+  <p>Login user with existing account.</p>
+  <h3 class="section">URL</h3>
+  <code>{protocol}://{environment}.example.com/v1/login</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>POST</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model=""><a href=""></a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+  </ul>
+  <h2><a name="subjectsDelete"></a>subjectsDelete</h2>
+  <hr>
+  <p></p>
+  <p>Delect all the subjects that are registered.</p>
+  <h3 class="section">URL</h3>
+  <code>{protocol}://{environment}.example.com/v1/subjects</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>DELETE</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model=""><a href=""></a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+  </ul>
+  <h2><a name="subjectsGet"></a>subjectsGet</h2>
+  <hr>
+  <p></p>
+  <p>Return all the subjects available without distinguishing the user.</p>
+  <h3 class="section">URL</h3>
+  <code>{protocol}://{environment}.example.com/v1/subjects</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>GET</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="Subject_array"><a href="">Subject_array</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+  </ul>
+  <h2><a name="subjectsPost"></a>subjectsPost</h2>
+  <hr>
+  <p></p>
+  <p>This operation is not avilable.</p>
+  <h3 class="section">URL</h3>
+  <code>{protocol}://{environment}.example.com/v1/subjects</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>POST</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model=""><a href=""></a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+  </ul>
+  <h2><a name="subjectsPut"></a>subjectsPut</h2>
+  <hr>
+  <p></p>
+  <p>This operation is not avilable to edit all subjects</p>
+  <h3 class="section">URL</h3>
+  <code>{protocol}://{environment}.example.com/v1/subjects</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>PUT</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model=""><a href=""></a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+  </ul>
+  <h2><a name="subjectsSubjectIdDelete"></a>subjectsSubjectIdDelete</h2>
+  <hr>
+  <p></p>
+  <p>Delete a subject with some ID.</p>
+  <h3 class="section">URL</h3>
+  <code>{protocol}://{environment}.example.com/v1/subjects/{subjectId}</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>DELETE</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model=""><a href=""></a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">subjectId</span>
+      <span class="param-type">Integer</span>
+      
+      <p class="param-description">Numeric ID of the subject to delete.</p>
+	  </li>
+  </ul>
+  <h2><a name="subjectsSubjectIdGet"></a>subjectsSubjectIdGet</h2>
+  <hr>
+  <p></p>
+  <p>Return one subject by id.</p>
+  <h3 class="section">URL</h3>
+  <code>{protocol}://{environment}.example.com/v1/subjects/{subjectId}</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>GET</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="Subject"><a href="">Subject</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">subjectId</span>
+      <span class="param-type">Integer</span>
+      
+      <p class="param-description">Numeric ID of the subject to get.</p>
+	  </li>
+  </ul>
+  <h2><a name="subjectsSubjectIdPatch"></a>subjectsSubjectIdPatch</h2>
+  <hr>
+  <p></p>
+  <p>Edit some fields of the subject that are selected in the front-end.</p>
+  <h3 class="section">URL</h3>
+  <code>{protocol}://{environment}.example.com/v1/subjects/{subjectId}</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>PATCH</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model=""><a href=""></a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">subjectId</span>
+      <span class="param-type">Integer</span>
+      
+      <p class="param-description">Numeric ID of the subject to patch.</p>
+	  </li>
+  </ul>
+  <h2><a name="subjectsTeacherIdPost"></a>subjectsTeacherIdPost</h2>
+  <hr>
+  <p></p>
+  <p>Add a new subject using the teacher Id on parameters.</p>
+  <h3 class="section">URL</h3>
+  <code>{protocol}://{environment}.example.com/v1/subjects/{teacherId}</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>POST</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model=""><a href=""></a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">teacherId</span>
+      <span class="param-type">Integer</span>
+      
+      <p class="param-description">Numeric ID of the teacher to add a new subject.</p>
+	  </li>
+  </ul>
+  <h2><a name="usersDelete"></a>usersDelete</h2>
+  <hr>
+  <p></p>
+  <p>Delete all users that exists without any distinguishing.</p>
+  <h3 class="section">URL</h3>
+  <code>{protocol}://{environment}.example.com/v1/users</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>DELETE</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model=""><a href=""></a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+  </ul>
+  <h2><a name="usersGet"></a>usersGet</h2>
+  <hr>
+  <p></p>
+  <p>Return all users that exists without any distinguishing.</p>
+  <h3 class="section">URL</h3>
+  <code>{protocol}://{environment}.example.com/v1/users</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>GET</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="User_array"><a href="">User_array</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+  </ul>
+  <h2><a name="usersPasswordUserIdPatch"></a>usersPasswordUserIdPatch</h2>
+  <hr>
+  <p></p>
+  <p>Edit user password by id.</p>
+  <h3 class="section">URL</h3>
+  <code>{protocol}://{environment}.example.com/v1/users/password/{userId}</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>PATCH</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model=""><a href=""></a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">userId</span>
+      <span class="param-type">Integer</span>
+      
+      <p class="param-description">Numeric ID of the user to edit his password.</p>
+	  </li>
+  </ul>
+  <h2><a name="usersPut"></a>usersPut</h2>
+  <hr>
+  <p></p>
+  <p>This request is not available.</p>
+  <h3 class="section">URL</h3>
+  <code>{protocol}://{environment}.example.com/v1/users</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>PUT</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model=""><a href=""></a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+  </ul>
+  <h2><a name="usersSubjectUserIdGet"></a>usersSubjectUserIdGet</h2>
+  <hr>
+  <p></p>
+  <p>Get the subject of the user using his id.</p>
+  <h3 class="section">URL</h3>
+  <code>{protocol}://{environment}.example.com/v1/users/subject/{userId}</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>GET</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="Subject_array"><a href="">Subject_array</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">userId</span>
+      <span class="param-type">Integer</span>
+      
+      <p class="param-description">Numeric ID of the teacher to get the subjects of the user.</p>
+	  </li>
+  </ul>
+  <h2><a name="usersUserIdDelete"></a>usersUserIdDelete</h2>
+  <hr>
+  <p></p>
+  <p>Delete one user by id.</p>
+  <h3 class="section">URL</h3>
+  <code>{protocol}://{environment}.example.com/v1/users/{userId}</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>DELETE</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model=""><a href=""></a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">userId</span>
+      <span class="param-type">Integer</span>
+      
+      <p class="param-description">Numeric ID of the user to edit an exact user.</p>
+	  </li>
+  </ul>
+  <h2><a name="usersUserIdGet"></a>usersUserIdGet</h2>
+  <hr>
+  <p></p>
+  <p>Return one user by id.</p>
+  <h3 class="section">URL</h3>
+  <code>{protocol}://{environment}.example.com/v1/users/{userId}</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>GET</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="User"><a href="">User</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">userId</span>
+      <span class="param-type">Integer</span>
+      
+      <p class="param-description">Numeric ID of the user to get an exact user.</p>
+	  </li>
+  </ul>
+  <h2><a name="usersUserIdPatch"></a>usersUserIdPatch</h2>
+  <hr>
+  <p></p>
+  <p>Edit some fields of the user information, you can&#x27;t edit the password with this request.</p>
+  <h3 class="section">URL</h3>
+  <code>{protocol}://{environment}.example.com/v1/users/{userId}</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>PATCH</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model=""><a href=""></a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      
+      <span class="param-in">Path: </span>
+      
+      
+      <span class="param-name">userId</span>
+      <span class="param-type">Integer</span>
+      
+      <p class="param-description">Numeric ID of the user to edit an exact user.</p>
+	  </li>
+  </ul>
+</div>
